@@ -1,0 +1,25 @@
+
+.footer{
+    padding: 30px 0;
+}
+
+.footer-final{
+    background-color: #0392CE;
+    text-align: center;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 0;
+}
+.footer-contact p {
+    /* color: #0392CE;/ */
+    font-size: 13px;
+    font-weight: 700;
+}
+.footer-contact span{
+    /* color: #0392CE;/ */
+    font-weight: 700;
+}
+.footer-contact-right i{
+    /* color: #0392CE; */
+    /* font-size: 20px; */
+}

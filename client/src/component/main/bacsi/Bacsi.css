@@ -1,0 +1,17 @@
+.doctor{
+    margin: 20px;
+    /* padding:  30px; */
+    background-color:#cccccc50;
+    /* border: 2px solid #4a4a4a; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.bacsi_item h3{
+    color:#0392CE !important;
+}
+.bacsi_item h4{
+    color:#057aac66 !important;
+}
+.bacsi_item span{
+  font-style: 500 !important;
+}

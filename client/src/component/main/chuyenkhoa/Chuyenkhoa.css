@@ -1,0 +1,48 @@
+.main-top{
+    margin-bottom: 40px;
+}
+
+.chuyenkhoa:hover {
+    background-color:#0391cec4 !important;
+    color: white;
+    /* transition:1.7s; */
+}
+
+.chuyenkhoa_item{
+    padding: 15px 80px;
+    text-align: center;
+    /* background-color:rebeccapurple ; */
+}
+.chuyenkhoa_item-img{
+    overflow: hidden;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.chuyenkhoa_item-img {
+    /* width: 132px;
+    height: 132px; */
+    border-radius: 50%;
+    border: 3px dashed #0391cec4;
+    /* border-right: 2px dashed #0391cec4;
+    border-left: 2px dashed #000000;
+    border-bottom: 2px dashed #000000; */
+    padding: 15px;
+    animation: spin 10s infinite linear;
+}
+.chuyenkhoa_item-img img {
+    animation: spin 10s infinite reverse linear;
+    width: 100%;
+    border-radius: 50%;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(1turn);
+    }
+}

@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+    font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* h1{
+    color:#0392CE;
+} */
+h2{
+  color:#0392CE;
+}
+h3{
+  color:#0392CE;
+}
+.text-blue{
+  color:#0392CE !important;
+}
+a{
+  text-decoration: none !important;
+  color: black !important;
+}
+ @import url('./component/header/Header.css');
+ @import url('./component/main/bacsi/Bacsi.css');
+ @import url('./component/main/Home/home.css');
+ @import url('./component//main/chuyenkhoa/Chuyenkhoa.css');
+ @import url('./component/footer/Footer.css');
